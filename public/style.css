@@ -1,0 +1,22 @@
+/* sourced from Portfolio style.css */
+ul {
+    /* Changes the display property from its default to `flex`. */
+    display: flex;
+    /*
+      You want the navigation to display in a single row. This is 
+      the default value for `display: flex`, so you don't need
+      to define its `flex-direction` in this case.
+    */
+  
+    /*
+      Removes the default padding to the left of the
+      unordered list.
+    */
+    padding-left: 0;
+  
+    /*
+      Removes the bullet points from the list items within the 
+      unordered list.
+    */
+    list-style: none;
+  }
